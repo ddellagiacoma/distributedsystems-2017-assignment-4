@@ -15,7 +15,16 @@
   * Honest generals should agree on the same votes among them
   
   * It is not required any agreement for the Byzantine generals
+
+## The interface
+
+* Each node has a webpage interface of three buttons:
+
+  * "Attack", "Retreat", "Byzantine"
   
+* If a general is honest, start the Byzantine agreement algorithm on that general (vessel) by clicking the "Attack" or "Retreat" button, depending on the initial vote that you have assigned to that general
+
+* If a general is Byzantine, start the Byzantine agreement algorithm on that general (vessel) by clicking the "Byzantine" button
   
 ## How it works
 
